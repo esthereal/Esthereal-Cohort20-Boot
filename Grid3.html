@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="../css/bootstrap.min.css">
+        <link rel="stylesheet" href="grid2.css">
+    </head>
+    <body>
+
+        <!-- styling the heading of the page with class: header -->
+            <!-- mx:margin left and right. my: margin top and bottom -->
+            <div class="head my-4 mx-auto text-center ">
+                <h1 class="mb-5"> <span style="color: rgb(104, 104, 177);">Bootstrap 5 Grid Assignment</span></h1>
+            </div>
+
+            <!-- Designing the container of the grid -->
+            <div class="container">
+
+                <div class="container-fluid">
+                    <div class="row gy-6">
+
+                        <div class="col col-sm-12 header p-5 my-2 text-center">
+                            Header
+                        </div>
+                    </div>
+
+
+                    <div class="row">
+                        <!-- First Column (Vertically Long) -->
+                        <div class="col-sm-3 sidebar g-3">
+                            Sidebar
+                        </div>
+                
+                        <!-- Second Column (Divided into Two Rows) -->
+                        <div class="col-sm-9">
+
+                            <!-- Row one -->
+                            <div class="row">
+                                <div class="col-sm-12 content-1 g-3">
+                                    Content-1
+                                </div>
+                            </div>
+            
+                            <!-- Row two -->
+                            <div class="row">
+            
+                                <!-- Row 2 divided into 2 colums -->
+                                <!-- column one -->
+                                <div class="col-sm-6 content-2 g-2 gx-5">
+                                    Content-2
+                                </div>
+            
+                                <!-- column-two -->
+                                <div class="col-sm-6 content-3 p-2 g-2">
+                                    Content-3
+                                </div>
+            
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Footer design -->
+                    <div class="row">
+                        <div class="col col-sm-12 footer p-4 my-3">
+                            Footer
+                        </div>
+                    </div>
+                </div>
+            
+
+
+
+                    </div>
+
+                </div>
+
+            </div>
+            
+        <script src="../js/bootstrap.bundle.min.js"></script>
+    </body>
+</html>
